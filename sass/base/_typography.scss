@@ -5,3 +5,29 @@ body {
     color: $color-black;
     padding: 3rem;
 }
+
+.heading-primary {
+    &--main {
+        display: block;
+        font-size: 60px;
+        font-weight: 400;
+    
+        animation: moveInLeft 1s ease-out;
+    }
+    
+    &--sub {
+        display: block;
+        font-size: 40px;
+        font-weight: 400;
+    
+        animation: moveInRight 1s ease-out;
+    }
+    
+    &--loc {
+        display: block;
+        font-size: 20px;
+        font-weight: 700;
+    
+        animation: moveInLeft 1s ease-out;
+    }
+}
