@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    // default 16px
+    // 10px = 1 rem
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
