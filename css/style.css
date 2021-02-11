@@ -43,8 +43,7 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  color: #000;
-  padding: 3rem; }
+  color: #000; }
 
 .heading-primary--main {
   display: block;
@@ -58,7 +57,7 @@ body {
   font-weight: 400;
   animation: moveInRight 1s ease-out; }
 
-.heading-primary--loc {
+.heading-primary--tertiary {
   display: block;
   font-size: 20px;
   font-weight: 700;
@@ -97,19 +96,20 @@ body {
   background-size: cover;
   background-position: top;
   position: relative;
+  margin-left: 3rem;
+  margin-right: 3rem;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
-  .header__logo-box {
-    position: absolute;
-    top: 4rem;
-    left: 4rem; }
-  .header__logo {
-    height: 3.5rem; }
   .header__text-box {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
+  .header__text-box img {
+    padding: .5rem; }
+  .header__text-box img:hover {
+    transform: rotate(30deg);
+    transition-duration: .4s; }
 
 .github-animated {
   display: inline-block;
@@ -125,3 +125,35 @@ body {
   display: inline-block;
   animation: moveInBottom .5s ease-out .75s;
   animation-fill-mode: backwards; }
+
+.nav {
+  width: 100%;
+  background: #142946;
+  font-size: 1.6rem;
+  height: 65px;
+  padding: 1rem;
+  position: fixed;
+  z-index: 100; }
+  .nav--tabs {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    max-width: 1350px; }
+  .nav--tabs li {
+    padding: 5px 10px 10px 10px; }
+  .nav--tabs a {
+    text-decoration: none;
+    color: #fff; }
+  .nav--tabs a:hover {
+    color: #faa60a; }
+  .nav--initials {
+    display: block;
+    margin-right: auto;
+    color: #fff;
+    cursor: default; }
+  .nav--initials:hover {
+    transition: all .5s;
+    transform: scale(1.1);
+    color: #faa60a; }
