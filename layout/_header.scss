@@ -29,3 +29,21 @@
         text-align: center;
     }
 }
+
+.github-animated {
+    display: inline-block;
+    animation: moveInBottom .5s ease-out .25s;
+    animation-fill-mode: backwards;
+}
+
+.linkedin-animated {
+    display: inline-block;
+    animation: moveInBottom .5s ease-out .5s;
+    animation-fill-mode: backwards;
+}
+
+.twitter-animated {
+    display: inline-block;
+    animation: moveInBottom .5s ease-out .75s;
+    animation-fill-mode: backwards;
+}
