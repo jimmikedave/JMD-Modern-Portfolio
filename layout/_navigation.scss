@@ -1,0 +1,44 @@
+.nav {
+    width: 100%;
+    background: $color-primary-dark-2;
+    font-size: 1.6rem;
+    height: 65px;
+    padding: 1rem;
+    position: fixed;
+    z-index: 100;
+
+    &--tabs {
+        display: flex;
+        justify-content: space-around;
+        font-weight: 700; 
+        list-style-type: none; 
+        margin: 0 auto;
+        max-width: 1350px;
+    }
+    
+    &--tabs li {
+        padding: 5px 10px 10px 10px;
+    }
+    
+    &--tabs a {
+        text-decoration: none;
+        color: $color-white;
+    }
+    
+    &--tabs a:hover {
+        color:$color-secondary;
+    }
+    
+    &--initials {
+        display: block;
+        margin-right: auto;
+        color: $color-white;
+        cursor: default;
+    }
+    
+    &--initials:hover {
+        transition: all .5s;
+        transform: scale(1.1);
+        color:$color-secondary;
+    }
+}
