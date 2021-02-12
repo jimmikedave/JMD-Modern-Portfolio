@@ -105,7 +105,7 @@ body {
       right: 0;
       top: 2rem; }
     .composition__photo:hover {
-      outline: 1.5rem solid #faa60a;
+      outline: 1.5rem solid #f3a30d;
       transform: scale(1.05) translateY(-0.5rem);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
       z-index: 20; }
@@ -141,7 +141,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(198, 216, 250, 0.8), rgba(19, 87, 233, 0.8)), url(../images/pexels-merry-zar-2306359.jpg);
+  background-image: linear-gradient(to right bottom, rgba(198, 216, 250, 0.8), rgba(19, 87, 233, 0.8)), url(../images/des-mtn.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -196,7 +196,7 @@ body {
     text-decoration: none;
     color: #fff; }
   .nav--tabs a:hover {
-    color: #faa60a; }
+    color: #f3a30d; }
   .nav--initials {
     display: block;
     margin-right: auto;
@@ -205,7 +205,7 @@ body {
   .nav--initials:hover {
     transition: all .5s;
     transform: scale(1.1);
-    color: #faa60a; }
+    color: #f3a30d; }
 
 .section-about {
   background-color: #f7f7f7;
