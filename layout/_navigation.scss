@@ -34,6 +34,7 @@
         margin-right: auto;
         color: $color-white;
         cursor: default;
+        backface-visibility: hidden;
     }
     
     &--initials:hover {
