@@ -144,8 +144,15 @@ body {
     clip-path: circle(50% at 50% 50%);
     transform: translateX(-3rem) skewX(12deg); }
   .project__image {
-    height: 100%;
-    transform: translateX(-8rem); }
+    height: 100%; }
+    .project__image--school {
+      transform: translateX(-8rem); }
+    .project__image--spotify {
+      transform: translateX(-10rem); }
+    .project__image--oop {
+      transform: translateX(-8rem); }
+    .project__image--flickr {
+      transform: translateX(-6rem); }
 
 .row {
   max-width: 114rem;

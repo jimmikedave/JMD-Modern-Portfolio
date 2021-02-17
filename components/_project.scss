@@ -23,6 +23,22 @@
 
     &__image {
         height: 100%;
-        transform: translateX(-8rem);
+        
+
+        &--school {
+            transform: translateX(-8rem);   
+        }
+
+        &--spotify {
+            transform: translateX(-10rem);
+        }
+
+        &--oop {
+            transform: translateX(-8rem);
+        }
+
+        &--flickr {
+            transform: translateX(-6rem);
+        }
     }
 }
