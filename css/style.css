@@ -140,6 +140,50 @@ button[type="submit"]:hover {
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.95); }
 
+.popup {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s; }
+  .popup:target {
+    opacity: 1;
+    visibility: visible; }
+  .popup:target .popup__content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1); }
+  .popup__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    overflow: hidden;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.2);
+    transition: all .4s .2s; }
+  .popup__image {
+    width: 100%; }
+  .popup__close:link, .popup__close:visited {
+    color: #777;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 3rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .2s;
+    line-height: 1; }
+  .popup__close:hover {
+    color: #f3a30d; }
+
 .project {
   width: 100%;
   margin: 0 auto;
@@ -160,7 +204,9 @@ button[type="submit"]:hover {
     clip-path: circle(50% at 50% 50%);
     transform: translateX(-3rem) skewX(12deg); }
   .project__image {
-    height: 100%; }
+    height: 100%;
+    transition: all .3s;
+    border: transparent; }
     .project__image--school {
       transform: translateX(-8rem); }
     .project__image--spotify {
