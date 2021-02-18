@@ -1,44 +1,48 @@
 .section-about {
     background-color: $color-grey-light-1;
-    padding: 35rem 0;
-    margin-top: -35vh;
+    padding-top: 21rem;
+    padding-bottom: 45rem;
+    margin-top: -32vh;
+    margin-bottom: -35vh;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .section-projects {
-    // height: 200vh;
-    padding: 20rem 0; //200 padding with 0 left and right
+    padding: 10rem 0; //200 padding with 0 left and right
     background-image: linear-gradient(
         to right bottom, 
         rgba($color-primary-light, .2), 
         rgba($color-primary-dark, .2)), 
     url(../images/skyscraper.jpg);
     background-size: cover;
-    transform: skewY(-7deg);
+    clip-path: polygon(0 20vh, 100% 0%, 100% 100%, 0% 100%);
     margin-top: -10rem;
     margin-left: 3rem;
     margin-right: 3rem;
 
-    //target direct children
-    & > * {
-        transform: skewY(7deg);
+    &__title {
+        margin-top: 8rem;
     }
 }
 
 .section-contact {
-    padding: 20rem 0;
+    background-color: $color-grey-light-1;
+    padding-top: 28.5rem;
     margin-left: 3rem;
     margin-right: 3rem;
 }
 
 .contact {
+    margin-top: -25vh;
     &__form-container {
+        background-color: $color-secondary;
         width: 90%;
         max-width: 500px;
         margin: 0 auto;
         padding: 20px;
-        box-shadow: 310rem 3rem 8rem #00000020;
-        border-radius: 8px;
-        margin-bottom: 20px;
+        box-shadow: 0 1rem 3rem $color-black;
+        border-radius: 3px;
         text-align: left;
     }
     

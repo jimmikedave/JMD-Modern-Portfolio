@@ -110,8 +110,8 @@ button[type="submit"] {
   transition: .3s ease background-color; }
 
 button[type="submit"]:hover {
-  background-color: #13172a;
-  color: #87adff; }
+  background-color: #142946;
+  color: #f3a30d; }
 
 .composition {
   position: relative; }
@@ -345,43 +345,48 @@ button[type="submit"]:hover {
 
 .section-about {
   background-color: #f7f7f7;
-  padding: 35rem 0;
-  margin-top: -35vh; }
+  padding-top: 21rem;
+  padding-bottom: 45rem;
+  margin-top: -32vh;
+  margin-bottom: -35vh;
+  margin-left: 3rem;
+  margin-right: 3rem; }
 
 .section-projects {
-  padding: 20rem 0;
+  padding: 10rem 0;
   background-image: linear-gradient(to right bottom, rgba(198, 216, 250, 0.2), rgba(19, 87, 233, 0.2)), url(../images/skyscraper.jpg);
   background-size: cover;
-  transform: skewY(-7deg);
+  clip-path: polygon(0 20vh, 100% 0%, 100% 100%, 0% 100%);
   margin-top: -10rem;
   margin-left: 3rem;
   margin-right: 3rem; }
-  .section-projects > * {
-    transform: skewY(7deg); }
+  .section-projects__title {
+    margin-top: 8rem; }
 
 .section-contact {
-  padding: 20rem 0;
+  background-color: #f7f7f7;
+  padding-top: 28.5rem;
   margin-left: 3rem;
   margin-right: 3rem; }
 
-.contact__form-container {
-  width: 90%;
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 20px;
-  box-shadow: 310rem 3rem 8rem #00000020;
-  border-radius: 8px;
-  margin-bottom: 20px;
-  text-align: left; }
-
-.contact__form-group {
-  width: 100%;
-  margin-top: 20px;
-  font-size: 20px; }
-
-.contact__form-group input,
-.contact__form-group textarea {
-  width: 100%;
-  padding: 5px;
-  font-size: 18px;
-  margin-top: 5px; }
+.contact {
+  margin-top: -25vh; }
+  .contact__form-container {
+    background-color: #f3a30d;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 1rem 3rem #000;
+    border-radius: 3px;
+    text-align: left; }
+  .contact__form-group {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px; }
+  .contact__form-group input,
+  .contact__form-group textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    margin-top: 5px; }
