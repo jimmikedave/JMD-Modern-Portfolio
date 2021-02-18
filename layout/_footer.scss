@@ -1,10 +1,5 @@
 .footer {
-    background-image: linear-gradient(
-        rgba($color-grey-dark-3, .97),
-        rgba($color-grey-dark-3, .97)), 
-        url(../images/skyscraper-view.jpg);
-    background-size: cover;
-    background-position-y: -148rem;
+    background-color: $color-grey-dark-3;
     padding: 10rem 0;
     font-size: 1.4rem;
     color: $color-grey-light-1;
