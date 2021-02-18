@@ -173,7 +173,7 @@ button[type="submit"]:hover {
     outline-offset: 2rem; }
     .composition__photo--p1 {
       left: 5%;
-      top: -2rem; }
+      top: 5rem; }
     .composition__photo--p2 {
       left: 25%;
       top: 15rem; }
@@ -328,6 +328,7 @@ button[type="submit"]:hover {
   position: relative;
   margin-left: 3rem;
   margin-right: 3rem;
+  margin-bottom: 13rem;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
   .header__text-box {
     position: absolute;
@@ -391,10 +392,10 @@ button[type="submit"]:hover {
 
 .section-about {
   background-color: #f7f7f7;
-  padding-top: 21rem;
-  padding-bottom: 45rem;
-  margin-top: -32vh;
-  margin-bottom: -35vh;
+  padding-top: 27.5rem;
+  padding-bottom: 35rem;
+  margin-top: -40vh;
+  margin-bottom: -20vh;
   margin-left: 3rem;
   margin-right: 3rem; }
 
