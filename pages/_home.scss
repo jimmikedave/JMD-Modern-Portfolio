@@ -23,3 +23,36 @@
         transform: skewY(7deg);
     }
 }
+
+.section-contact {
+    padding: 20rem 0;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.contact {
+    &__form-container {
+        width: 90%;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        box-shadow: 310rem 3rem 8rem #00000020;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    
+    &__form-group {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    
+    &__form-group input,
+    &__form-group textarea {
+        width: 100%;
+        padding: 5px;
+        font-size: 18px;
+        margin-top: 5px;
+    }
+}
